@@ -1,41 +1,46 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## 01-node-ecosystem
 
-### Author: Student/Group Name
+### Author: Jacob Anderson
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [repo](https://github.com/1anderson2jacob/01-node-ecosystem)
+* [travis](https://www.travis-ci.com/1anderson2jacob/01-node-ecosystem)
+* [deploy](https://node-ecosystem-jake.herokuapp.com/)
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `arithemtic.js` `greet.js`
 
-###### `foo(thing) -> string`
+### Exports
+##### arithmetic.add, arithmetic.subtract, arithmetic.divide, arithmetic.multiply greet.greeting
+
+### Examples
+###### `greet.greeting(name) -> string`
+###### `arithmetic.add(a,b) -> number`
+
+### Function Descriptions:
+###### arithmetic.add
+####### params: 2 numbers, output with numbers: number, output with non-numbers: null
+###### arithmetic.subtract
+####### params: 2 numbers, output with numbers: number, output with non-numbers: null
+###### arithmetic.multiply
+####### params: 2 numbers, output with numbers: number, output with non-numbers: null
+###### arithmetic.divide
+####### params: 2 numbers, output with non-zero numbers: number, output with zeros: null, output with non-numbers: null
+###### greet.gretting
+####### params: 1 string, output with string: string, output with non-string: null
 Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
-
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
 
 #### Tests
-* How do you run tests?
+* How do you run tests? 
+*   npm run test
 * What assertions were made?
+*   no asserts, only expects
 * What assertions need to be / should be made?
 
 #### UML
